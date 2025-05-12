@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\build\Custom.props" />
+  <PropertyGroup>
+    <TargetFramework>$(DataLayerTargetFramework)$(DataLayerTargetFrameworkVersion)</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\build\Custom.props" />
+  </ItemGroup>
+</Project>

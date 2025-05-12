@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <Property1>standard</Property1>
+    <SomeProperty>net</SomeProperty>
+    <SomeOtherProperty>$(Property1)</SomeOtherProperty>
+    <DataLayerTargetFramework>$(SomeProperty)$(SomeOtherProperty)</DataLayerTargetFramework>
+    <DataLayerTargetFrameworkVersion>2.0</DataLayerTargetFrameworkVersion>
+  </PropertyGroup>
+</Project>
+
